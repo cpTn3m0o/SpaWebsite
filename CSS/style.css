@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #FFFFFF;
+}
+
+.img-fluid{
+    border-radius: 100%;
+}
+.fa{
+    color: white;
+}
+.choosing{
+    color: black;
+}
+.choosing:hover{
+    color: green;
+}
+#wall{
+    border-right: 1px solid gray;
+}
+#logoMobile{
+    display: none;
+}
+@media screen and (min-width: 1025px) {
+  #navMenu{
+      position: relative;
+      left: 23%;
+  }
+  #readMore{
+      padding: 15px 50px 15px 50px;
+  }
+  
+}
+
+@media screen and (max-width: 1024px) {
+  #advice {
+    font-size: 15px;
+  }
+  #topText{
+      display: none;
+  }
+  #logoMobile{
+      display: block;
+  }
+  #logoDesktop{
+      display: none;
+  }
+}
